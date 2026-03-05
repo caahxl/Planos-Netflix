@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+
+    <link rel="icon" href="imagens/icons8-netflix-24.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            background: #000000ef;
+            color: white;
+        }
+
+        .naveg {
+            background: linear-gradient(135deg, #000000, #8f0011, #8f0011, #000000);
+            color: white;
+        }
+
+        .card {
+            transition: 0.3s;
+        }
+
+        .card-header{
+            background: linear-gradient(135deg, #000000, #8f0011, #8f0011, #000000);
+            color: white;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .table {
+            background: #1f1f1f;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #000000, #8f0011, #8f0011, #000000);
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="naveg navbar navbar-expand-lg navbar-darkpy-3">
+
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="imagens/icons8-netflix-48 (1).png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <button class="btn btn-danger ms-auto mt-3 mt-lg-0">Entrar</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="py-5">
+
+        <div class="container">
+
+            <h1 class="text-center fw-bold">
+                Planos de Assinatura da Netflix
+            </h1>
+
+            <p class="text-center fs-5 mt-4 text-secondary">
+                Escolha o plano ideal para você. A Netflix oferece opções flexíveis que combinam
+                preço, qualidade de imagem e número de telas.
+            </p>
+
+            <div class="row row-cols-1 row-cols-lg-3 g-4 my-5">
+
+                <div class="col">
+
+                    <div class="card border-danger shadow h-100">
+                        <div class="card-header h-100 bg-danger text-white d-flex justify-content-center align-items-center py-3">
+                            <h2 class="fs-4">Padrão com Anúncios</h2>
+                        </div>
+
+                        <div class="card-body">
+
+                            <p class="fs-2 fw-bold">
+                                R$20,90
+                                <span class="text-secondary fs-6">/mês</span>
+                            </p>
+
+                            <ul class="list-unstyled my-4">
+
+                                <li class="mb-2">
+                                    <i class="bi bi-tv text-danger"></i>
+                                    2 telas simultâneas
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-badge-hd text-danger"></i>
+                                    Full HD (1080p)
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-download text-danger"></i>
+                                    Downloads offline
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-megaphone text-danger"></i>
+                                    Com anúncios
+                                </li>
+
+                            </ul>
+
+                            <button class="btn btn-outline-danger w-100">Selecionar Plano</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-danger shadow h-100">
+                        <div class="card-header text-center bg-danger text-white py-3">
+                            <h2 class="fs-4">Premium</h2>
+                            <span class="badge bg-warning text-dark mb-2">Mais popular</span>
+                        </div>
+
+                        <div class="card-body">
+
+                            <p class="fs-2 fw-bold">
+                                R$59,90
+                                <span class="text-secondary fs-6">/mês</span>
+                            </p>
+
+                            <ul class="list-unstyled my-4">
+
+                                <li class="mb-2">
+                                    <i class="bi bi-tv text-danger"></i>
+                                    4 telas simultâneas
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-badge-4k text-danger"></i>
+                                    4K + HDR
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-download text-danger"></i>
+                                    Downloads offline
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-x-circle text-danger"></i>
+                                    Sem anúncios
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-danger w-100">Selecionar Plano</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-danger shadow-lg h-100">
+                        <div class="card-header h-100 bg-danger text-white d-flex justify-content-center align-items-center py-3">
+                            <h2 class="fs-4">Padrão</h2>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="fs-2 fw-bold">R$44,90
+                                <span class="text-secondary fs-6">/mês</span>
+                            </p>
+
+                            <ul class="list-unstyled my-4">
+
+                                <li class="mb-2">
+                                    <i class="bi bi-tv text-danger"></i>
+                                    2 telas simultâneas
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-badge-hd text-danger"></i>
+                                    Full HD (1080p)
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-download text-danger"></i>
+                                    Downloads offline
+                                </li>
+
+                                <li class="mb-2">
+                                    <i class="bi bi-x-circle text-danger"></i>
+                                    Sem anúncios
+                                </li>
+
+                            </ul>
+
+                            <button class="btn btn-outline-danger w-100">Selecionar Plano</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-center mt-5 mb-4">
+                Compare os planos
+            </h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+
+                    <table class="table table-dark table-striped table-hover text-center align-middle shadow">
+                        <thead>
+                            <tr>
+                                <th>Plano</th>
+                                <th>Padrão com anúncios</th>
+                                <th>Padrão</th>
+                                <th>Premium</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Preço</td>
+                                <td>R$20,90</td>
+                                <td>R$44,90</td>
+                                <td>R$59,90</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Telas</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>4</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Qualidade</td>
+                                <td>Full HD</td>
+                                <td>Full HD</td>
+                                <td>4K + HDR</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Anúncios</td>
+                                <td><i class="bi bi-check text-success fs-4"></i></td>
+                                <td><i class="bi bi-x text-danger fs-4"></i></td>
+                                <td><i class="bi bi-x text-danger fs-4"></i></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td>Downloads</td>
+                                <td><i class="bi bi-check text-success fs-4"></i></td>
+                                <td><i class="bi bi-check text-success fs-4"></i></td>
+                                <td><i class="bi bi-check text-success fs-4"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center text-secondary py-4">
+
+        <div class="container">
+
+            <p class=" text-white mb-2">
+                © 2026 Netflix by Milly
+            </p>
+
+            <div>
+                <i class="bi bi-facebook text-white fs-4 me-3"></i>
+                <i class="bi bi-instagram text-white fs-4 me-3"></i>
+                <i class="bi bi-twitter text-white fs-4"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
